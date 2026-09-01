@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: python-ci-cd-calculator
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app

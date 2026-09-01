@@ -1,1 +1,5 @@
 pytest
+ruff
+pytest-cov
+flask
+gunicorn
